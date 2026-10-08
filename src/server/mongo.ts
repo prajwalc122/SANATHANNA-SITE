@@ -17,7 +17,7 @@ export interface MongoDatabaseStatus {
 let client: MongoClient | null = null;
 let db: Db | null = null;
 let activeUri: string = process.env.MONGODB_URI || '';
-let currentDbName: string = 'pavitram_pooja_db';
+let currentDbName: string = 'sanaatana_pooja_db';
 let lastConnectionError: string = '';
 
 export async function connectToMongo(uriString?: string): Promise<{ success: boolean; message: string; dbName?: string }> {
@@ -47,7 +47,7 @@ export async function connectToMongo(uriString?: string): Promise<{ success: boo
     // Parse DB Name from URI or default
     const parsedUrl = new URL(targetUri.replace('mongodb+srv://', 'http://').replace('mongodb://', 'http://'));
     const pathName = parsedUrl.pathname.replace(/^\//, '');
-    currentDbName = pathName || 'pavitram_pooja_db';
+    currentDbName = pathName || 'sanaatana_pooja_db';
 
     db = client.db(currentDbName);
     activeUri = targetUri;

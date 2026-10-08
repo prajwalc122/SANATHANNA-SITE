@@ -54,7 +54,7 @@ Configure the following environment variables in your deployment environment (e.
 | `ADMIN_PASSWORD` | Password for the Admin Portal | Strong passphrase with 12+ characters, symbols, and numbers |
 | `ADMIN_JWT_SECRET` | Secret key for signing admin session tokens | Random 64-character hex string (e.g. `openssl rand -hex 32`) |
 | `ADMIN_2FA_PIN` | Optional 6-digit PIN for Two-Factor Authentication | 6-digit numeric code (e.g. `789123`) |
-| `MONGODB_URI` | Connection URI for MongoDB Atlas (Optional) | `mongodb+srv://<user>:<password>@cluster.mongodb.net/pavitram_pooja_db?retryWrites=true&w=majority` |
+| `MONGODB_URI` | Connection URI for MongoDB Atlas (Optional) | `mongodb+srv://<user>:<password>@cluster.mongodb.net/sanaatana_pooja_db?retryWrites=true&w=majority` |
 | `GEMINI_API_KEY` | Injected automatically by AI Studio if AI features are enabled | Keep in user secrets (never commit to git) |
 | `APP_URL` | Base public URL of the application | e.g. `https://poojaseve.example.com` |
 | `PORT` | Listening port for Express backend | Default `3000` |

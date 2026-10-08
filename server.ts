@@ -409,24 +409,6 @@ async function startServer() {
   // 1. Disable Fingerprinting
   app.disable('x-powered-by');
 
-  // 1b. Canonical Domain & HTTPS Redirect Middleware (pavitram.com)
-  app.use((req: Request, res: Response, next: NextFunction) => {
-    const host = (req.headers.host || '').toLowerCase();
-    const forwardedProto = req.headers['x-forwarded-proto'];
-
-    // Redirect www.pavitram.com to canonical pavitram.com
-    if (host.startsWith('www.pavitram.com')) {
-      return res.redirect(301, `https://pavitram.com${req.originalUrl || '/'}`);
-    }
-
-    // Enforce HTTPS on pavitram.com in production if request arrived over HTTP
-    if (host === 'pavitram.com' && forwardedProto === 'http') {
-      return res.redirect(301, `https://pavitram.com${req.originalUrl || '/'}`);
-    }
-
-    next();
-  });
-
   // 2. Comprehensive Security Headers Middleware
   app.use((req: Request, res: Response, next: NextFunction) => {
     // HSTS (HTTP Strict Transport Security)
@@ -481,7 +463,7 @@ async function startServer() {
   app.get('/api/health', (req: Request, res: Response) => {
     res.json({
       status: 'ok',
-      service: 'Pavitram Pooja Seve Protected API',
+      service: 'Sanaatana Pooja Seve Protected API',
       securityStatus: 'enforced',
       timestamp: new Date().toISOString(),
     });
@@ -1429,7 +1411,7 @@ async function startServer() {
   }
 
   app.listen(PORT, '0.0.0.0', () => {
-    console.log(`Pavitram Secured Backend server running on http://0.0.0.0:${PORT}`);
+    console.log(`Sanaatana Secured Backend server running on http://0.0.0.0:${PORT}`);
   });
 }
 

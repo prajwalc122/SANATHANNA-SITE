@@ -146,7 +146,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
   const [mongoStatus, setMongoStatus] = useState<any>({
     isConnected: false,
     uriConfigured: false,
-    dbName: 'pavitram_pooja_db',
+    dbName: 'sanaatana_pooja_db',
     counts: { clients: 0, bookings: 0, orders: 0, payments: 0 },
   });
   const [mongoUriInput, setMongoUriInput] = useState('');
@@ -1701,7 +1701,7 @@ export const AdminPortalModal: React.FC<AdminPortalModalProps> = ({
                               type="password"
                               value={mongoUriInput}
                               onChange={(e) => setMongoUriInput(e.target.value)}
-                              placeholder="mongodb+srv://<username>:<password>@cluster0.mongodb.net/pavitram_pooja_db"
+                              placeholder="mongodb+srv://<username>:<password>@cluster0.mongodb.net/sanaatana_pooja_db"
                               className="flex-1 px-3.5 py-2.5 bg-[#002B3D] border border-[#0A3847] rounded-xl font-mono text-xs text-[#E8F8F0] outline-none focus:border-[#13AA52]"
                             />
                             <button

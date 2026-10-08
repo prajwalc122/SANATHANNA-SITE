@@ -9,8 +9,8 @@ export interface PaymentGatewayConfig {
 
 export const DEFAULT_GATEWAY_CONFIG: PaymentGatewayConfig = {
   provider: 'razorpay',
-  merchantName: 'Pooja Seve Samsthe (ಶ್ರೀ ಮಹಾಗಣಪತಿ ವೈದಿಕ ಸೇವೆ)',
-  merchantUpi: 'pavitrampooja@upi',
+  merchantName: 'ಸನಾತನ ವೈದಿಕ ಸೇವೆ (Sanaatana Vedic Services)',
+  merchantUpi: 'sanaatana@upi',
   razorpayKeyId: 'rzp_live_pooja894372',
   isTestMode: false,
   autoCapture: true,

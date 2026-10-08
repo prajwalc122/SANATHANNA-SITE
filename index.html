@@ -23,28 +23,15 @@
           event.stopImmediatePropagation();
         }
       });
-
-      // Domain & HTTPS canonical redirect for pavitram.com
-      (function () {
-        try {
-          var h = window.location.hostname;
-          var p = window.location.protocol;
-          if (h && (h === 'www.pavitram.com' || (h === 'pavitram.com' && p === 'http:'))) {
-            window.location.replace('https://pavitram.com' + window.location.pathname + window.location.search + window.location.hash);
-          }
-        } catch (e) {}
-      })();
     </script>
-    <link rel="canonical" href="https://pavitram.com" />
     <title>ಸನಾತನ | Sanaatana — Authentic Pooja Services & Sacred Materials</title>
     <meta name="description" content="ಸನಾತನ — ಪೂಜಾ ಸಾಮಗ್ರಿಗಳು, ಪುರೋಹಿತರ ಸೇವೆ ಮತ್ತು ಶುಭ ಕಾರ್ಯಗಳ ವ್ಯವಸ್ಥೆ. Authentic Pooja Services, Purohits, and Sacred Materials with secure payment checkout." />
     <meta property="og:title" content="ಸನಾತನ | Sanaatana — Authentic Pooja Services & Materials" />
     <meta property="og:description" content="ಸನಾತನ — ಪೂಜಾ ಸಾಮಗ್ರಿಗಳು, ಪುರೋಹಿತರ ಸೇವೆ ಮತ್ತು ಶುಭ ಕಾರ್ಯಗಳ ವ್ಯವಸ್ಥೆ. Authentic Pooja Services, Purohits, and Sacred Materials with secure payment checkout." />
     <meta property="og:type" content="website" />
     <meta name="twitter:card" content="summary_large_image" />
-    <link rel="icon" type="image/svg+xml" href="/src/assets/images/final_divine_deity_logo.svg" />
-    <link rel="alternate icon" href="/public/favicon.svg" />
-    <link rel="apple-touch-icon" href="/src/assets/images/final_divine_deity_logo.svg" />
+    <link rel="icon" type="image/svg+xml" href="./favicon.svg" />
+    <link rel="apple-touch-icon" href="./favicon.svg" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;0,700;1,600&family=Noto+Sans+Kannada:wght@400;500;600;700;800;900&family=Plus+Jakarta+Sans:wght@400;500;600;700;800&display=swap" rel="stylesheet">
