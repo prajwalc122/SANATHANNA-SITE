@@ -1,0 +1,27 @@
+[
+  {
+    "id": "ord-101",
+    "clientId": "cli-101",
+    "customerName": "ವೆಂಕಟೇಶ್ ಪ್ರಸಾದ್ (Venkatesh Prasad)",
+    "customerPhone": "9448123456",
+    "customerAddress": "#42, 3rd Cross, Vinobanagar, Shivamogga - 577204",
+    "items": [
+      {
+        "item": {
+          "id": "m7",
+          "nameKn": "ಆಕಳ ಶುದ್ಧ ತುಪ್ಪ",
+          "nameEn": "Pure Desi Cow Ghee",
+          "price": 380,
+          "unitKn": "500 ಮಿ.ಲೀ",
+          "unitEn": "500ml"
+        },
+        "quantity": 2
+      }
+    ],
+    "total": 760,
+    "paymentMethod": "UPI",
+    "paymentStatus": "Paid",
+    "status": "delivered",
+    "createdAt": "2026-09-12T14:00:00.000Z"
+  }
+]

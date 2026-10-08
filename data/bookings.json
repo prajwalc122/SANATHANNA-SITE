@@ -1,0 +1,32 @@
+[
+  {
+    "id": "bk-101",
+    "clientId": "cli-101",
+    "name": "ವೆಂಕಟೇಶ್ ಪ್ರಸಾದ್ (Venkatesh Prasad)",
+    "phone": "9448123456",
+    "poojaType": "ಗಣೇಶ ಪೂಜೆ (Ganesha Pooja)",
+    "date": "2026-10-02",
+    "time": "09:00 AM",
+    "location": "ವಿನೋಬನಗರ, ಶಿವಮೊಗ್ಗ (Shivamogga)",
+    "message": "ಮನೆ ಶಾಂತಿ ಮತ್ತು ವ್ಯಾಪಾರ ವೃದ್ಧಿಗಾಗಿ ವಿಶೇಷ ಗಣಪತಿ ಪೂಜೆ ಹಾಗೂ ಸಂಕಲ್ಪ ಬೇಕು.",
+    "status": "confirmed",
+    "amount": 2100,
+    "purohitName": "Pt. Vidyadhar Shastri (Rigveda Purohit)",
+    "createdAt": "2026-09-10T10:30:00.000Z"
+  },
+  {
+    "id": "bk-102",
+    "clientId": "cli-102",
+    "name": "ಸುಜಾತಾ ಕುಲಕರ್ಣಿ (Sujata Kulkarni)",
+    "phone": "9845078912",
+    "poojaType": "ಲಕ್ಷ್ಮೀ ಪೂಜೆ (Lakshmi Pooja)",
+    "date": "2026-10-05",
+    "time": "10:30 AM",
+    "location": "ಮಲ್ಲೇಶ್ವರಂ, ಬೆಂಗಳೂರು (Bengaluru)",
+    "message": "ಹೊಸ ಗೃಹಪ್ರವೇಶ ಮತ್ತು ಅಷ್ಟಲಕ್ಷ್ಮೀ ಆರಾಧನೆ.",
+    "status": "assigned",
+    "amount": 3500,
+    "purohitName": "ವೇ. ಮೂ. ಕೃಷ್ಣಮೂರ್ತಿ ಭಟ್",
+    "createdAt": "2026-09-15T11:00:00.000Z"
+  }
+]

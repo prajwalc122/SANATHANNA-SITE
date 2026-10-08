@@ -1,0 +1,130 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="bgAura" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFF3E0"/>
+      <stop offset="70%" stop-color="#FFE0B2"/>
+      <stop offset="100%" stop-color="#FFCC80"/>
+    </radialGradient>
+    <linearGradient id="fire1" x1="0" y1="1" x2="0" y2="0">
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="40%" stop-color="#F57C00"/>
+      <stop offset="80%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+    <linearGradient id="brick1" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#C85A32"/>
+      <stop offset="50%" stop-color="#A6421D"/>
+      <stop offset="100%" stop-color="#7D2C0E"/>
+    </linearGradient>
+    <linearGradient id="brassLamp" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="50%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#FF6F00"/>
+    </linearGradient>
+  </defs>
+
+  <rect width="800" height="600" fill="url(#bgAura)"/>
+
+  <!-- Floor Rangoli (Kolam Pattern under Havan Kund) -->
+  <g transform="translate(400, 420)" opacity="0.85">
+    <!-- Lotus Petal Rangoli (Red, White, Yellow powder) -->
+    <ellipse cx="0" cy="0" rx="280" ry="130" fill="none" stroke="#FFFFFF" stroke-width="4" stroke-dasharray="6,6"/>
+    <path d="M-260 0 Q-150 -120 0 -130 Q150 -120 260 0 Q150 120 0 130 Q-150 120 -260 0 Z" fill="#D32F2F" fill-opacity="0.35" stroke="#FFD54F" stroke-width="3"/>
+    <!-- Green Mango Leaves Border -->
+    <g fill="#388E3C" stroke="#1B5E20" stroke-width="2">
+      <path d="M-240 10 Q-280 40 -300 30 Q-270 0 -240 10 Z"/>
+      <path d="M240 10 Q280 40 300 30 Q270 0 240 10 Z"/>
+      <path d="M-180 80 Q-210 120 -230 110 Q-200 80 -180 80 Z"/>
+      <path d="M180 80 Q210 120 230 110 Q200 80 180 80 Z"/>
+      <path d="M0 120 Q-30 160 -10 170 Q10 140 0 120 Z"/>
+      <path d="M0 -120 Q-30 -160 -10 -170 Q10 -140 0 -120 Z"/>
+    </g>
+    <!-- Marigold Flowers -->
+    <circle cx="-260" cy="0" r="14" fill="#FFB300" stroke="#E65100" stroke-width="2"/>
+    <circle cx="260" cy="0" r="14" fill="#FFB300" stroke="#E65100" stroke-width="2"/>
+    <circle cx="0" cy="125" r="14" fill="#FFB300" stroke="#E65100" stroke-width="2"/>
+    <circle cx="0" cy="-125" r="14" fill="#FFB300" stroke="#E65100" stroke-width="2"/>
+  </g>
+
+  <!-- BRICK HAVAN KUND (Traditional Red Baked Bricks) -->
+  <g transform="translate(400, 340)">
+    <!-- Bottom Brick Layer -->
+    <polygon points="-200,80 200,80 230,140 -230,140" fill="url(#brick1)" stroke="#5C1D06" stroke-width="3"/>
+    <!-- Individual Brick Lines & Auspicious Chuna (White) / Kumkum Marks -->
+    <g stroke="#FFFFFF" stroke-width="3" fill="none">
+      <line x1="-150" y1="85" x2="-150" y2="135"/>
+      <line x1="-75" y1="85" x2="-75" y2="135"/>
+      <line x1="0" y1="85" x2="0" y2="135"/>
+      <line x1="75" y1="85" x2="75" y2="135"/>
+      <line x1="150" y1="85" x2="150" y2="135"/>
+    </g>
+    <!-- Auspicious Vibhuti Tripundra & Kumkum on front brick -->
+    <g transform="translate(0, 110)">
+      <line x1="-40" y1="-6" x2="40" y2="-6" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-45" y1="0" x2="45" y2="0" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <line x1="-40" y1="6" x2="40" y2="6" stroke="#FFFFFF" stroke-width="4" stroke-linecap="round"/>
+      <circle cx="0" cy="0" r="5" fill="#D32F2F"/>
+    </g>
+
+    <!-- Top Brick Layer (Rim of Fire Pit) -->
+    <polygon points="-170,0 170,0 200,80 -200,80" fill="#B2461E" stroke="#5C1D06" stroke-width="3"/>
+    <polygon points="-120,-30 120,-30 170,0 -170,0" fill="#8B3010" stroke="#3D1002" stroke-width="3"/>
+
+    <!-- Holy Fire Wood (Samithu) Inside Kund -->
+    <rect x="-90" y="-30" width="180" height="22" rx="8" transform="rotate(-15)" fill="#4E342E" stroke="#261510" stroke-width="2"/>
+    <rect x="-90" y="-30" width="180" height="22" rx="8" transform="rotate(15)" fill="#3E2723" stroke="#261510" stroke-width="2"/>
+    <rect x="-80" y="-40" width="160" height="20" rx="6" fill="#5D4037" stroke="#261510" stroke-width="2"/>
+
+    <!-- GLOWING AGNI (Sacred Holy Fire) -->
+    <!-- Large Radiant Outer Flame -->
+    <path d="M0 -220 C-60 -130 -120 -60 -120 0 C-120 50 -60 70 0 70 C60 70 120 50 120 0 C120 -60 60 -130 0 -220 Z" fill="url(#fire1)" opacity="0.95"/>
+    <!-- Left Tongue of Flame -->
+    <path d="M-60 -140 C-90 -90 -100 -40 -70 10 C-50 -20 -30 -60 -60 -140 Z" fill="#FF6D00"/>
+    <!-- Right Tongue of Flame -->
+    <path d="M60 -140 C90 -90 100 -40 70 10 C50 -20 30 -60 60 -140 Z" fill="#FF6D00"/>
+    <!-- Bright Golden Core Flame -->
+    <path d="M0 -170 C-35 -100 -70 -50 -70 0 C-70 35 -35 50 0 50 C35 50 70 35 70 0 C70 -50 35 -100 0 -170 Z" fill="#FFE082"/>
+    <path d="M0 -130 C-20 -70 -40 -30 -40 0 C-40 20 -20 30 0 30 C20 30 40 20 40 0 C40 -30 20 -70 0 -130 Z" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Brass Samai Lamps on Both Sides (as seen in HOMMA.jpeg) -->
+  <!-- Left Brass Lamp -->
+  <g transform="translate(130, 260)">
+    <ellipse cx="0" cy="180" rx="35" ry="12" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <rect x="-6" y="40" width="12" height="140" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <ellipse cx="0" cy="40" rx="45" ry="14" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <!-- Flame on lamp -->
+    <path d="M0 0 C-10 15 -10 30 0 35 C10 30 10 15 0 0 Z" fill="#FFD54F" stroke="#FF6F00" stroke-width="1.5"/>
+  </g>
+  <!-- Right Brass Lamp -->
+  <g transform="translate(670, 260)">
+    <ellipse cx="0" cy="180" rx="35" ry="12" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <rect x="-6" y="40" width="12" height="140" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <ellipse cx="0" cy="40" rx="45" ry="14" fill="url(#brassLamp)" stroke="#B78103" stroke-width="2"/>
+    <!-- Flame on lamp -->
+    <path d="M0 0 C-10 15 -10 30 0 35 C10 30 10 15 0 0 Z" fill="#FFD54F" stroke="#FF6F00" stroke-width="1.5"/>
+  </g>
+
+  <!-- Brass Kalasha on Left -->
+  <g transform="translate(80, 420)">
+    <ellipse cx="0" cy="20" rx="30" ry="38" fill="url(#brassLamp)" stroke="#8D5B4C" stroke-width="2"/>
+    <circle cx="0" cy="-15" r="22" fill="#6D4C41" stroke="#3E2723" stroke-width="2"/>
+    <path d="M-20 -10 Q0 -40 0 -50 Q0 -40 20 -10 Z" fill="#2E7D32"/>
+  </g>
+
+  <!-- Brass Thali with Pooja Offerings on Right -->
+  <g transform="translate(700, 440)">
+    <ellipse cx="0" cy="0" rx="60" ry="22" fill="url(#brassLamp)" stroke="#8D5B4C" stroke-width="2"/>
+    <circle cx="-25" cy="-5" r="12" fill="#D32F2F"/>
+    <circle cx="0" cy="-8" r="12" fill="#FFD54F"/>
+    <circle cx="25" cy="-5" r="12" fill="#FFFFFF"/>
+  </g>
+
+  <!-- Header -->
+  <text x="400" y="42" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#7A2518" text-anchor="middle">
+    ಪವಿತ್ರ ಹೋಮಗಳು • Sacred Vedic Homas
+  </text>
+  <text x="400" y="66" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8D5B4C" text-anchor="middle">
+    Ganapathi, Navagraha, Rudra, Chandi &amp; Sudarshana Homa
+  </text>
+</svg>

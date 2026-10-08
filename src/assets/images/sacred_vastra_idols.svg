@@ -1,0 +1,138 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="templeBackdrop" cx="50%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#2E3B33"/>
+      <stop offset="60%" stop-color="#1F2922"/>
+      <stop offset="100%" stop-color="#0F1712"/>
+    </radialGradient>
+    <linearGradient id="goldBrass" x1="0%" y1="0%" x2="1%" y2="1%">
+      <stop offset="0%" stop-color="#FFF176"/>
+      <stop offset="30%" stop-color="#FFD54F"/>
+      <stop offset="70%" stop-color="#FFB300"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="greenSaree" x1="0%" y1="0%" x2="1%" y2="1%">
+      <stop offset="0%" stop-color="#00695C"/>
+      <stop offset="50%" stop-color="#004D40"/>
+      <stop offset="100%" stop-color="#00332C"/>
+    </linearGradient>
+    <linearGradient id="zariGold" x1="0%" y1="0%" x2="1%" y2="0%">
+      <stop offset="0%" stop-color="#D32F2F"/>
+      <stop offset="50%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#D32F2F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Dark sanctum wall background -->
+  <rect width="800" height="600" fill="url(#templeBackdrop)"/>
+
+  <!-- Wooden Peetha / Altar Base -->
+  <rect x="40" y="460" width="720" height="140" fill="#4E342E" stroke="#271915" stroke-width="4"/>
+  <rect x="50" y="470" width="700" height="12" fill="#6D4C41"/>
+
+  <!-- 1. LEFT DEITY IDOL: Goddess (Sridevi / Lakshmi) draped in Green Silk Saree -->
+  <g transform="translate(180, 200)">
+    <!-- Brass Crown (Kireeta) -->
+    <polygon points="0,-90 -16,-45 16,-45" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="1.5"/>
+    <circle cx="0" cy="-90" r="4" fill="#FFD54F"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="-35" rx="18" ry="22" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="1.5"/>
+    <!-- Golden Lotus in Hand -->
+    <g transform="translate(35, -25)">
+      <circle cx="0" cy="0" r="8" fill="url(#goldBrass)"/>
+      <path d="M0 -8 C-4 -14 4 -14 0 -8" fill="#FFB300"/>
+    </g>
+
+    <!-- Torso and Gold Necklace (Mangalsutra / Kasina Sara) -->
+    <path d="M-20,-15 L-25,50 L25,50 L20,-15 Z" fill="url(#goldBrass)"/>
+    <path d="M-12,10 Q0,32 12,10" stroke="#FFD54F" stroke-width="4" fill="none"/>
+    <!-- Temple Kasu Padakkam (Gold Pendant) -->
+    <rect x="-8" y="28" width="16" height="16" rx="2" fill="#FFB300" stroke="#D32F2F" stroke-width="1"/>
+
+    <!-- Emerald Green Silk Saree Drape (Pleats & Pallu) -->
+    <path d="M-45,40 C-60,110 -80,240 -70,260 C-30,270 30,270 70,260 C80,240 60,110 45,40 Z" fill="url(#greenSaree)" stroke="#00251A" stroke-width="2"/>
+    <!-- Saree Pleats Lines -->
+    <g stroke="#00251A" stroke-width="2">
+      <line x1="-30" y1="60" x2="-40" y2="255"/>
+      <line x1="-15" y1="60" x2="-20" y2="260"/>
+      <line x1="0" y1="60" x2="0" y2="262"/>
+      <line x1="15" y1="60" x2="20" y2="260"/>
+      <line x1="30" y1="60" x2="40" y2="255"/>
+    </g>
+    <!-- Saree Red-Gold Zari Border at Bottom Hem -->
+    <path d="M-70,250 C-30,260 30,260 70,250 L68,265 C30,275 -30,275 -68,265 Z" fill="url(#zariGold)"/>
+  </g>
+
+  <!-- 2. CENTER DEITY IDOL: Lord Venkateshwara / Vishnu in Silk Vastra -->
+  <g transform="translate(400, 160)">
+    <!-- Prabhavali / Halo behind Crown -->
+    <circle cx="0" cy="-50" r="42" fill="none" stroke="url(#goldBrass)" stroke-width="6" stroke-dasharray="6,3"/>
+    <!-- Tall Sacred Kireeta (Crown) -->
+    <polygon points="0,-120 -22,-55 22,-55" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="2"/>
+    <circle cx="0" cy="-122" r="6" fill="#FFF176"/>
+    <!-- Face with Tilak -->
+    <ellipse cx="0" cy="-38" rx="22" ry="26" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="1.5"/>
+    <!-- Sacred White-Red Namam (Urdhva Pundra) -->
+    <path d="M-5,-48 L-5,-30 L0,-24 L5,-30 L5,-48" fill="#FFFFFF" stroke="#FFFFFF" stroke-width="1"/>
+    <line x1="0" y1="-48" x2="0" y2="-26" stroke="#D32F2F" stroke-width="2"/>
+
+    <!-- Four Arms (Chaturbhuja): Conch (Shankha) & Discus (Chakra) -->
+    <!-- Shankha (Left upper hand) -->
+    <ellipse cx="-55" cy="-45" rx="12" ry="16" fill="url(#goldBrass)"/>
+    <!-- Chakra (Right upper hand) -->
+    <ellipse cx="55" cy="-45" rx="14" ry="14" fill="url(#goldBrass)" stroke="#FFF" stroke-width="1"/>
+
+    <!-- Traditional Silk Vastra (Angavastra & Dhoti draped across chest) -->
+    <!-- Tricolor sacred shawl: Orange, White, Green border as in image -->
+    <path d="M-30,-10 C-10,30 20,80 35,140 C10,145 -10,140 -25,120 C-40,80 -35,20 -30,-10 Z" fill="#FFFFFF" stroke="#D7CCC8" stroke-width="1.5"/>
+    <path d="M-28,-5 C-8,35 22,85 35,140" stroke="#FF9800" stroke-width="6" fill="none"/>
+    <path d="M-24,0 C-4,40 26,90 35,140" stroke="#2E7D32" stroke-width="6" fill="none"/>
+
+    <!-- Lower Pure Dhoti with Golden Border -->
+    <path d="M-45,140 C-40,220 -30,290 -30,300 C-5,305 15,305 30,300 C35,290 40,220 45,140 Z" fill="#FFFDF5" stroke="#D7CCC8" stroke-width="2"/>
+    <!-- Dhoti Zari Border -->
+    <rect x="-30" y="290" width="60" height="12" fill="url(#zariGold)"/>
+    <!-- Brass Peetha / Lotus Stand -->
+    <polygon points="-50,305 50,305 60,335 -60,335" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="2"/>
+  </g>
+
+  <!-- 3. RIGHT DEITY IDOL: Goddess (Bhudevi) in Green Silk Saree -->
+  <g transform="translate(620, 200)">
+    <!-- Brass Crown -->
+    <polygon points="0,-90 -16,-45 16,-45" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="1.5"/>
+    <circle cx="0" cy="-90" r="4" fill="#FFD54F"/>
+    <!-- Face -->
+    <ellipse cx="0" cy="-35" rx="18" ry="22" fill="url(#goldBrass)" stroke="#BF360C" stroke-width="1.5"/>
+    <!-- Lotus in Hand -->
+    <g transform="translate(-35, -25)">
+      <circle cx="0" cy="0" r="8" fill="url(#goldBrass)"/>
+      <path d="M0 -8 C-4 -14 4 -14 0 -8" fill="#FFB300"/>
+    </g>
+
+    <!-- Torso and Gold Necklace -->
+    <path d="M-20,-15 L-25,50 L25,50 L20,-15 Z" fill="url(#goldBrass)"/>
+    <path d="M-12,10 Q0,32 12,10" stroke="#FFD54F" stroke-width="4" fill="none"/>
+    <rect x="-8" y="28" width="16" height="16" rx="2" fill="#FFB300" stroke="#D32F2F" stroke-width="1"/>
+
+    <!-- Emerald Green Silk Saree Drape -->
+    <path d="M-45,40 C-60,110 -80,240 -70,260 C-30,270 30,270 70,260 C80,240 60,110 45,40 Z" fill="url(#greenSaree)" stroke="#00251A" stroke-width="2"/>
+    <!-- Saree Pleats Lines -->
+    <g stroke="#00251A" stroke-width="2">
+      <line x1="-30" y1="60" x2="-40" y2="255"/>
+      <line x1="-15" y1="60" x2="-20" y2="260"/>
+      <line x1="0" y1="60" x2="0" y2="262"/>
+      <line x1="15" y1="60" x2="20" y2="260"/>
+      <line x1="30" y1="60" x2="40" y2="255"/>
+    </g>
+    <!-- Zari Border -->
+    <path d="M-70,250 C-30,260 30,260 70,250 L68,265 C30,275 -30,275 -68,265 Z" fill="url(#zariGold)"/>
+  </g>
+
+  <!-- Title Header -->
+  <text x="400" y="46" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#FFE082" text-anchor="middle">
+    ಪೂಜಾ ವಸ್ತ್ರಗಳು • Sacred Deity Vastras &amp; Handloom
+  </text>
+  <text x="400" y="72" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#B0BEC5" text-anchor="middle">
+    Pure Silk Sarees, Cotton Dhotis, Angavastras &amp; Sacred Pithambaras
+  </text>
+</svg>

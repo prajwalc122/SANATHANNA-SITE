@@ -1,0 +1,407 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1600 900" width="100%" height="100%">
+  <defs>
+    <!-- Background Gradients -->
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFF6E6"/>
+      <stop offset="50%" stop-color="#FFF0D6"/>
+      <stop offset="100%" stop-color="#FFE8C4"/>
+    </linearGradient>
+    <radialGradient id="centerAura" cx="50%" cy="45%" r="60%">
+      <stop offset="0%" stop-color="#FFFDF5" stop-opacity="0.9"/>
+      <stop offset="50%" stop-color="#FFEFCF" stop-opacity="0.5"/>
+      <stop offset="100%" stop-color="#FFDFAD" stop-opacity="0"/>
+    </radialGradient>
+
+    <!-- Fire Gradients -->
+    <linearGradient id="fireOuter" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#C62828"/>
+      <stop offset="40%" stop-color="#EF6C00"/>
+      <stop offset="80%" stop-color="#FFA000"/>
+      <stop offset="100%" stop-color="#FFEE58"/>
+    </linearGradient>
+    <linearGradient id="fireInner" x1="0%" y1="100%" x2="0%" y2="0%">
+      <stop offset="0%" stop-color="#FF5722"/>
+      <stop offset="50%" stop-color="#FFC107"/>
+      <stop offset="100%" stop-color="#FFFFFF"/>
+    </linearGradient>
+
+    <!-- Brass / Metal Gradients -->
+    <linearGradient id="brassGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#E5A93C"/>
+      <stop offset="30%" stop-color="#FFF1B0"/>
+      <stop offset="70%" stop-color="#C8871E"/>
+      <stop offset="100%" stop-color="#8A560B"/>
+    </linearGradient>
+    <linearGradient id="copperGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#C86A4B"/>
+      <stop offset="40%" stop-color="#F0A58A"/>
+      <stop offset="80%" stop-color="#A84B2E"/>
+      <stop offset="100%" stop-color="#6E2B16"/>
+    </linearGradient>
+
+    <!-- Jute Bag Gradient -->
+    <linearGradient id="juteGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#DFC299"/>
+      <stop offset="50%" stop-color="#CDAA7B"/>
+      <stop offset="100%" stop-color="#B58D5A"/>
+    </linearGradient>
+
+    <!-- Banana Leaf Gradient -->
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#43A047"/>
+      <stop offset="50%" stop-color="#7CB342"/>
+      <stop offset="100%" stop-color="#388E3C"/>
+    </linearGradient>
+
+    <!-- Coconut Gradients -->
+    <radialGradient id="coconutMeat" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFFFFF"/>
+      <stop offset="70%" stop-color="#F5F5F0"/>
+      <stop offset="90%" stop-color="#E0DACB"/>
+      <stop offset="100%" stop-color="#5D4037"/>
+    </radialGradient>
+    <radialGradient id="coconutShell" cx="40%" cy="40%" r="60%">
+      <stop offset="0%" stop-color="#8D6E63"/>
+      <stop offset="60%" stop-color="#5D4037"/>
+      <stop offset="100%" stop-color="#3E2723"/>
+    </radialGradient>
+
+    <!-- Pandit Skin Tone -->
+    <linearGradient id="skinGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#F8C89E"/>
+      <stop offset="50%" stop-color="#E5AB7E"/>
+      <stop offset="100%" stop-color="#C78556"/>
+    </linearGradient>
+
+    <!-- Soft Glow Filter -->
+    <filter id="holyGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- 1. Background Canvas -->
+  <rect width="1600" height="900" fill="url(#bgGrad)"/>
+  <rect width="1600" height="900" fill="url(#centerAura)"/>
+
+  <!-- 2. Sacred Sanskrit Sloka Watermark Texture -->
+  <g fill="#B8860B" fill-opacity="0.07" font-family="Georgia, serif" font-weight="bold">
+    <text x="80" y="90" font-size="36">ॐ त्र्यम्बकं यजामहे सुगन्धिं पुष्टिवರ್ಧनम्</text>
+    <text x="950" y="90" font-size="36">उर्वारुकमिव बन्धनान् मृत्योर्मुक्षीय मामृतात्</text>
+    <text x="40" y="210" font-size="42">ॐ भूर्भुवः स्वः तत्सवितुर्वरेण्यं भर्गो देवस्य धीमहि</text>
+    <text x="1080" y="210" font-size="42">धियो यो नः प्रचोदयात्</text>
+    <text x="60" y="360" font-size="38">शान्ताकारं भुजगशयनं पद्मनाभं सुरेशम्</text>
+    <text x="1120" y="360" font-size="38">विश्वाधारं गगनसदृशं मेघवर्णं शुभाङ्गम्</text>
+    <text x="40" y="510" font-size="40">सर्वमङ्गलमाङ्गल्ये शिवे सर्वार्थसाधिके</text>
+    <text x="1100" y="510" font-size="40">शरण्ये त्र्यम्बके गौरि नारायणि नमोऽस्तु ते</text>
+    <text x="80" y="670" font-size="36">ॐ असतो मा सद्गमय तमसो मा ज्योतिर्गमय</text>
+    <text x="1000" y="670" font-size="36">मृत्यೋರ್ಮಾ ಅಮೃತಂ ಗಮಯ ॐ ಶಾಂತಿಃ ಶಾಂತಿಃ</text>
+  </g>
+
+  <!-- 3. TOP BRANDING: PujaPurohit Header -->
+  <g transform="translate(510, 50)">
+    <!-- Diya Flame Icon -->
+    <path d="M40 58 C30 58 20 50 20 38 C20 22 38 12 40 2 C42 12 60 22 60 38 C60 50 50 58 40 58 Z" fill="#D32F2F"/>
+    <path d="M40 54 C34 54 28 48 28 39 C28 27 38 19 40 10 C42 19 52 27 52 39 C52 48 46 54 40 54 Z" fill="#FF9800"/>
+    <path d="M40 48 C37 48 34 44 34 38 C34 30 39 25 40 18 C41 25 46 30 46 38 C46 44 43 48 40 48 Z" fill="#FFEB3B"/>
+    <!-- Kalash / Diya Base -->
+    <path d="M16 54 C20 50 60 50 64 54 C66 62 60 72 40 72 C20 72 14 62 16 54 Z" fill="#B71C1C"/>
+
+    <!-- Main Title -->
+    <text x="80" y="62" font-family="Georgia, 'Cormorant Garamond', serif" font-size="62" font-weight="bold" fill="#B71C1C" letter-spacing="1">Puja<tspan fill="#8B1E0F">Purohit</tspan></text>
+    
+    <!-- Subtitle Bar -->
+    <line x1="160" y1="94" x2="265" y2="94" stroke="#8D5B4C" stroke-width="1.5" stroke-opacity="0.5"/>
+    <polygon points="275,94 280,90 285,94 280,98" fill="#8D5B4C"/>
+    <line x1="295" y1="94" x2="400" y2="94" stroke="#8D5B4C" stroke-width="1.5" stroke-opacity="0.5"/>
+    <text x="280" y="116" font-family="'Plus Jakarta Sans', sans-serif" font-size="16" font-weight="600" fill="#5A3215" text-anchor="middle" letter-spacing="0.5">Digital zamane ka spiritual sathi</text>
+  </g>
+
+  <!-- 4. LEFT SECTION: Jute Carry Bag & Coconuts & Kalasha -->
+  <g id="leftSamagriSection" transform="translate(180, 230)">
+    <!-- Jute Bag Handles -->
+    <path d="M150 120 C150 40 250 40 250 120" fill="none" stroke="#8D6E63" stroke-width="16" stroke-linecap="round"/>
+    <path d="M150 120 C150 40 250 40 250 120" fill="none" stroke="#D7CCC8" stroke-width="6" stroke-linecap="round" stroke-dasharray="6,6"/>
+
+    <!-- Jute Bag Body -->
+    <rect x="80" y="120" width="240" height="220" rx="16" fill="url(#juteGrad)" stroke="#8D6E63" stroke-width="4"/>
+    <!-- Bag stitch lines -->
+    <rect x="92" y="132" width="216" height="196" rx="12" fill="none" stroke="#795548" stroke-width="1.5" stroke-dasharray="6,4"/>
+    
+    <!-- Bag Branding -->
+    <path d="M140 180 C135 180 130 176 130 170 C130 162 139 157 140 152 C141 157 150 162 150 170 C150 176 145 180 140 180 Z" fill="#C62828"/>
+    <text x="156" y="176" font-family="Georgia, serif" font-size="20" font-weight="bold" fill="#5D4037">PujaPurohit</text>
+    <text x="156" y="192" font-family="sans-serif" font-size="8" fill="#6D4C41">Digital zamane ka spiritual sathi</text>
+    <rect x="110" y="210" width="65" height="24" rx="4" fill="#BCAAA4" fill-opacity="0.4" stroke="#8D6E63" stroke-width="1"/>
+    <rect x="185" y="210" width="40" height="24" rx="4" fill="#BCAAA4" fill-opacity="0.4" stroke="#8D6E63" stroke-width="1"/>
+    <rect x="235" y="210" width="45" height="24" rx="4" fill="#BCAAA4" fill-opacity="0.4" stroke="#8D6E63" stroke-width="1"/>
+
+    <!-- Banana Leaf under coconuts -->
+    <ellipse cx="190" cy="370" rx="220" ry="35" fill="url(#leafGrad)" stroke="#2E7D32" stroke-width="2"/>
+    <path d="M -10 370 Q 190 365 400 370" stroke="#81C784" stroke-width="2" fill="none"/>
+
+    <!-- Copper Kalasha on Left -->
+    <g transform="translate(-40, 160)">
+      <!-- Mango Leaves around coconut -->
+      <path d="M70 80 Q90 10 70 -10 Q50 10 70 80 Z" fill="#2E7D32" stroke="#1B5E20" stroke-width="2"/>
+      <path d="M50 85 Q10 40 0 10 Q30 30 50 85 Z" fill="#388E3C" stroke="#1B5E20" stroke-width="2"/>
+      <path d="M90 85 Q130 40 140 10 Q110 30 90 85 Z" fill="#388E3C" stroke="#1B5E20" stroke-width="2"/>
+      <path d="M40 95 Q-10 70 -20 50 Q10 65 40 95 Z" fill="#43A047" stroke="#1B5E20" stroke-width="2"/>
+      <path d="M100 95 Q150 70 160 50 Q130 65 100 95 Z" fill="#43A047" stroke="#1B5E20" stroke-width="2"/>
+
+      <!-- Coconut on top of Kalasha -->
+      <ellipse cx="70" cy="65" rx="35" ry="42" fill="url(#coconutShell)" stroke="#3E2723" stroke-width="2"/>
+      <path d="M70 23 Q72 15 70 10" stroke="#5D4037" stroke-width="4" stroke-linecap="round"/>
+
+      <!-- Kalasha Body -->
+      <ellipse cx="70" cy="90" rx="38" ry="10" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="2"/>
+      <path d="M34 90 C34 90 20 120 15 150 C10 180 30 205 70 205 C110 205 130 180 125 150 C120 120 106 90 106 90 Z" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="3"/>
+      <!-- Engravings on Kalasha -->
+      <ellipse cx="70" cy="150" rx="50" ry="12" fill="none" stroke="#FFCC80" stroke-width="2"/>
+      <text x="70" y="156" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#FFE0B2" text-anchor="middle">卐</text>
+      <!-- Base -->
+      <ellipse cx="70" cy="205" rx="38" ry="10" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="2"/>
+    </g>
+
+    <!-- Cut Coconut Halves & Whole Coconut in Foreground -->
+    <!-- Coconut Half 1 (Left tilted) -->
+    <g transform="translate(80, 270)">
+      <ellipse cx="55" cy="60" rx="45" ry="40" fill="url(#coconutShell)"/>
+      <ellipse cx="55" cy="60" rx="36" ry="32" fill="url(#coconutMeat)" stroke="#8D6E63" stroke-width="4"/>
+      <ellipse cx="55" cy="60" rx="22" ry="18" fill="#EFEBE9"/>
+    </g>
+    <!-- Whole Coconut (Center) -->
+    <g transform="translate(150, 260)">
+      <ellipse cx="50" cy="55" rx="48" ry="44" fill="url(#coconutShell)" stroke="#3E2723" stroke-width="3"/>
+      <path d="M20 50 Q50 35 80 50" stroke="#3E2723" stroke-width="2" fill="none"/>
+      <path d="M30 65 Q50 50 70 65" stroke="#3E2723" stroke-width="2" fill="none"/>
+      <!-- Tuft of Coir -->
+      <path d="M15 45 C5 35 8 25 15 20 C22 25 25 35 22 45 Z" fill="#5D4037"/>
+    </g>
+    <!-- Coconut Half 2 (Right tilted) -->
+    <g transform="translate(230, 270)">
+      <ellipse cx="55" cy="60" rx="45" ry="40" fill="url(#coconutShell)"/>
+      <ellipse cx="55" cy="60" rx="36" ry="32" fill="url(#coconutMeat)" stroke="#8D6E63" stroke-width="4"/>
+      <ellipse cx="55" cy="60" rx="22" ry="18" fill="#EFEBE9"/>
+    </g>
+
+    <!-- Marigold Flowers & Haldi Kumkum along the leaf -->
+    <circle cx="40" cy="350" r="14" fill="#FF6F00" stroke="#E65100" stroke-width="2"/>
+    <circle cx="40" cy="350" r="8" fill="#FFD54F"/>
+    <circle cx="65" cy="365" r="12" fill="#F44336" stroke="#B71C1C" stroke-width="2"/>
+    <circle cx="65" cy="365" r="6" fill="#FF8A80"/>
+    <circle cx="145" cy="375" r="15" fill="#FF9800" stroke="#E65100" stroke-width="2"/>
+    <circle cx="145" cy="375" r="8" fill="#FFF176"/>
+    <circle cx="220" cy="375" r="13" fill="#FF5722" stroke="#BF360C" stroke-width="2"/>
+    <circle cx="220" cy="375" r="6" fill="#FFAB91"/>
+    <circle cx="305" cy="365" r="14" fill="#FFC107" stroke="#FF8F00" stroke-width="2"/>
+    <circle cx="305" cy="365" r="7" fill="#FFF9C4"/>
+  </g>
+
+  <!-- 5. CENTER SECTION: Stepped Copper/Brass Havan Kund & Holy Fire -->
+  <g id="centerHavanSection" transform="translate(650, 310)">
+    <!-- Stepped Havan Kund Base Platform -->
+    <polygon points="20,230 280,230 320,270 -20,270" fill="#795548" stroke="#3E2723" stroke-width="3"/>
+    
+    <!-- Tier 3 (Bottom Tier) -->
+    <polygon points="0,210 300,210 280,230 20,230" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="2"/>
+    <polygon points="20,230 280,230 270,245 30,245" fill="#A84B2E"/>
+    
+    <!-- Tier 2 (Middle Tier) -->
+    <polygon points="25,185 275,185 295,210 5,210" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="2"/>
+    <polygon points="35,185 265,185 255,200 45,200" fill="#D87D5A"/>
+    
+    <!-- Tier 1 (Top Tier Pit Lip) -->
+    <polygon points="45,155 255,155 275,185 25,185" fill="url(#copperGrad)" stroke="#4E2010" stroke-width="2"/>
+    <polygon points="60,155 240,155 230,170 70,170" fill="#5A2312" stroke="#3E2723" stroke-width="2"/>
+
+    <!-- Holy Fire Wood Logs (Samithu) -->
+    <rect x="80" y="145" width="140" height="18" rx="6" transform="rotate(-15 150 150)" fill="#4E342E" stroke="#271915" stroke-width="2"/>
+    <rect x="80" y="145" width="140" height="18" rx="6" transform="rotate(15 150 150)" fill="#3E2723" stroke="#271915" stroke-width="2"/>
+    <rect x="90" y="135" width="120" height="16" rx="6" fill="#5D4037" stroke="#271915" stroke-width="2"/>
+
+    <!-- Holy Fire Glowing Aura -->
+    <circle cx="150" cy="90" r="90" fill="url(#fireOuter)" opacity="0.25" filter="url(#holyGlow)"/>
+
+    <!-- Sacred Agni Flames -->
+    <!-- Outer Red-Orange Flame Layer -->
+    <path d="M150 0 C120 40 85 70 85 110 C85 145 115 160 150 160 C185 160 215 145 215 110 C215 70 180 40 150 0 Z" fill="url(#fireOuter)"/>
+    <path d="M110 50 C80 90 70 120 85 150 C100 120 120 100 110 50 Z" fill="#FF5722"/>
+    <path d="M190 50 C220 90 230 120 215 150 C200 120 180 100 190 50 Z" fill="#FF5722"/>
+
+    <!-- Inner Golden Flame Layer -->
+    <path d="M150 25 C130 60 105 85 105 120 C105 150 125 158 150 158 C175 158 195 150 195 120 C195 85 170 60 150 25 Z" fill="url(#fireInner)"/>
+    <path d="M150 55 C140 80 125 95 125 125 C125 145 138 152 150 152 C162 152 175 145 175 125 C175 95 160 80 150 55 Z" fill="#FFFFFF" opacity="0.9"/>
+
+    <!-- In front of Havan Kund: Brass Thali with Puja Offerings -->
+    <!-- Brass Thali -->
+    <ellipse cx="150" cy="270" rx="130" ry="35" fill="url(#brassGrad)" stroke="#8A560B" stroke-width="3"/>
+    <ellipse cx="150" cy="270" rx="115" ry="28" fill="#C8871E" stroke="#FFE082" stroke-width="1.5"/>
+
+    <!-- Offerings in Thali: Fruits, Lota, Flowers -->
+    <!-- Mini Brass Kalasha -->
+    <ellipse cx="150" cy="240" rx="26" ry="8" fill="url(#brassGrad)"/>
+    <path d="M130 240 C130 255 120 270 150 275 C180 270 170 255 170 240 Z" fill="url(#brassGrad)" stroke="#8A560B" stroke-width="1.5"/>
+    <circle cx="150" cy="230" r="16" fill="url(#coconutShell)"/>
+    <path d="M140 235 Q150 215 150 210 Q160 215 160 235" fill="#388E3C"/>
+
+    <!-- Fruits in Thali -->
+    <!-- Bananas (Yellow curved) -->
+    <path d="M180 260 Q215 250 230 270 Q205 275 180 260 Z" fill="#FDD835" stroke="#F57F17" stroke-width="1.5"/>
+    <path d="M175 268 Q210 258 225 278 Q200 283 175 268 Z" fill="#FFEE58" stroke="#F57F17" stroke-width="1.5"/>
+    <!-- Apples & Pomegranate (Red) -->
+    <circle cx="190" cy="275" r="14" fill="#D32F2F" stroke="#B71C1C" stroke-width="1"/>
+    <circle cx="190" cy="275" r="6" fill="#EF5350"/>
+    <circle cx="110" cy="275" r="14" fill="#E53935" stroke="#C62828" stroke-width="1"/>
+    <!-- Grapes & Dry fruits -->
+    <circle cx="85" cy="270" r="8" fill="#6A1B9A"/>
+    <circle cx="95" cy="265" r="7" fill="#7B1FA2"/>
+    <circle cx="90" cy="275" r="8" fill="#4A148C"/>
+    <circle cx="100" cy="272" r="7" fill="#8E24AA"/>
+    <!-- Haldi Kumkum cones -->
+    <polygon points="125,255 132,270 118,270" fill="#FFD600" stroke="#F57F17" stroke-width="1"/>
+    <polygon points="175,255 182,270 168,270" fill="#C62828" stroke="#B71C1C" stroke-width="1"/>
+  </g>
+
+  <!-- 6. RIGHT SECTION: Traditional Vedic Pandit / Purohit & Pooja Setup -->
+  <g id="rightPanditSection" transform="translate(1000, 130)">
+    
+    <!-- Banana Leaf on the floor for offerings -->
+    <ellipse cx="210" cy="490" rx="240" ry="40" fill="url(#leafGrad)" stroke="#1B5E20" stroke-width="3"/>
+    <path d="M-20 490 Q210 480 440 490" stroke="#A5D6A7" stroke-width="2.5" fill="none"/>
+
+    <!-- Holy Brass Bowls on Banana Leaf -->
+    <!-- Bowl 1: Haldi (Yellow) -->
+    <g transform="translate(40, 440)">
+      <ellipse cx="30" cy="35" rx="28" ry="14" fill="url(#copperGrad)" stroke="#5D2817" stroke-width="2"/>
+      <ellipse cx="30" cy="32" rx="22" ry="10" fill="#FFEA00" stroke="#F57F17" stroke-width="1"/>
+      <polygon points="30,16 38,32 22,32" fill="#FFD600"/>
+    </g>
+    <!-- Bowl 2: Kumkum (Vermilion Red) -->
+    <g transform="translate(100, 460)">
+      <ellipse cx="30" cy="35" rx="28" ry="14" fill="url(#copperGrad)" stroke="#5D2817" stroke-width="2"/>
+      <ellipse cx="30" cy="32" rx="22" ry="10" fill="#D50000" stroke="#B71C1C" stroke-width="1"/>
+      <polygon points="30,16 38,32 22,32" fill="#C62828"/>
+    </g>
+    <!-- Bowl 3: Akshata / Sacred Rice (White-Yellow) -->
+    <g transform="translate(160, 440)">
+      <ellipse cx="30" cy="35" rx="30" ry="15" fill="url(#brassGrad)" stroke="#8A560B" stroke-width="2"/>
+      <ellipse cx="30" cy="32" rx="24" ry="11" fill="#FFF9C4" stroke="#FBC02D" stroke-width="1"/>
+      <circle cx="26" cy="30" r="3" fill="#FBC02D"/>
+      <circle cx="34" cy="29" r="3" fill="#FBC02D"/>
+    </g>
+    <!-- Brass Lota / Kalasha on right of leaf -->
+    <g transform="translate(240, 420)">
+      <ellipse cx="30" cy="20" rx="24" ry="8" fill="url(#copperGrad)" stroke="#5D2817" stroke-width="2"/>
+      <path d="M12 20 C8 45 4 65 30 70 C56 65 52 45 48 20 Z" fill="url(#copperGrad)" stroke="#5D2817" stroke-width="2"/>
+      <ellipse cx="30" cy="68" rx="22" ry="6" fill="url(#copperGrad)"/>
+    </g>
+    <!-- Water Vessel / Panchapatra with spoon -->
+    <g transform="translate(0, 400)">
+      <ellipse cx="25" cy="25" rx="20" ry="8" fill="url(#brassGrad)" stroke="#8A560B" stroke-width="2"/>
+      <path d="M10 25 L12 55 Q25 62 38 55 L40 25 Z" fill="url(#brassGrad)" stroke="#8A560B" stroke-width="2"/>
+      <!-- Uddharani spoon handle sticking out -->
+      <line x1="18" y1="10" x2="32" y2="45" stroke="#FFF59D" stroke-width="4" stroke-linecap="round"/>
+    </g>
+
+    <!-- PANDIT FIGURE (Sitting in Padmasana) -->
+    <!-- Legs / Base (White Dhoti / Panche) -->
+    <ellipse cx="210" cy="390" rx="130" ry="45" fill="#FFFFFF" stroke="#D7CCC8" stroke-width="2"/>
+    <!-- Golden Zari border on dhoti hem -->
+    <path d="M90 395 Q210 440 330 395" stroke="#FFB300" stroke-width="8" fill="none"/>
+    <path d="M90 395 Q210 440 330 395" stroke="#D84315" stroke-width="2" fill="none" stroke-dasharray="6,6"/>
+    
+    <!-- Torso (Sacred Bare Chest with Janeu) -->
+    <path d="M140 210 C130 250 135 340 150 370 C180 380 250 380 280 370 C290 340 290 250 280 210 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+    
+    <!-- Sacred Janeu Thread (Crosses from left shoulder to right waist) -->
+    <path d="M165 210 Q210 290 275 365" stroke="#FFFFFF" stroke-width="3" fill="none"/>
+    <path d="M166 210 Q211 290 276 365" stroke="#FFD54F" stroke-width="1.5" fill="none" stroke-dasharray="4,3"/>
+
+    <!-- Angavastra (Sacred White Shawl draped across left shoulder) -->
+    <path d="M140 210 C125 240 120 300 135 360 C150 365 165 360 160 300 C155 240 160 215 160 210 Z" fill="#FFFDF9" stroke="#E0E0E0" stroke-width="1.5"/>
+    <!-- Angavastra Zari Border -->
+    <path d="M140 210 C125 240 120 300 135 360" stroke="#FFB300" stroke-width="6" fill="none"/>
+    
+    <!-- Right Arm (Raised in Chin-Mudra / Mantra Chant Gesture) -->
+    <!-- Upper Arm -->
+    <path d="M145 220 C120 235 95 270 95 300 C105 310 120 305 125 285 C130 260 145 245 155 235 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+    <!-- Forearm extending towards fire -->
+    <path d="M95 300 C80 290 60 270 55 250 C65 240 75 250 85 270 C95 285 105 295 105 305 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+    <!-- Sacred Hand in Chin-Mudra (Thumb & Index touching, three fingers open) -->
+    <g transform="translate(40, 225)">
+      <ellipse cx="15" cy="20" rx="10" ry="12" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="1.5"/>
+      <!-- Index & Thumb joined -->
+      <circle cx="8" cy="14" r="5" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="1.5"/>
+      <!-- Other fingers extending gracefully -->
+      <line x1="16" y1="10" x2="24" y2="4" stroke="url(#skinGrad)" stroke-width="4" stroke-linecap="round"/>
+      <line x1="19" y1="13" x2="28" y2="8" stroke="url(#skinGrad)" stroke-width="3.5" stroke-linecap="round"/>
+      <line x1="20" y1="18" x2="29" y2="15" stroke="url(#skinGrad)" stroke-width="3" stroke-linecap="round"/>
+      <!-- Sacred Rudraksha on wrist -->
+      <circle cx="14" cy="28" r="3.5" fill="#5D4037"/>
+      <circle cx="20" cy="29" r="3.5" fill="#5D4037"/>
+    </g>
+
+    <!-- Left Arm (Resting on knee holding offering / mantra counter) -->
+    <path d="M275 225 C295 250 310 300 305 340 C295 350 280 345 275 320 C270 290 265 255 260 235 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+    <g transform="translate(290, 325)">
+      <ellipse cx="15" cy="15" rx="12" ry="10" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="1.5"/>
+      <circle cx="12" cy="8" r="3.5" fill="#5D4037"/>
+      <circle cx="18" cy="9" r="3.5" fill="#5D4037"/>
+    </g>
+
+    <!-- Pandit Head & Facial Features -->
+    <g transform="translate(170, 70)">
+      <!-- Neck -->
+      <path d="M35 110 L35 140 C45 145 65 145 75 140 L75 110 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+      
+      <!-- Head Base (Profile Facing Left towards Havan Kund) -->
+      <path d="M30 60 C30 25 55 10 75 10 C105 10 115 35 115 70 C115 105 95 125 70 125 C45 125 30 95 30 60 Z" fill="url(#skinGrad)" stroke="#8D5B4C" stroke-width="2"/>
+      
+      <!-- Traditional Shikha / Hair (Neat black hair with tuft) -->
+      <path d="M50 15 C65 10 95 8 110 25 C120 40 120 70 115 85 C115 85 118 70 115 50 C110 30 95 18 75 18 C60 18 50 22 50 15 Z" fill="#212121"/>
+      <ellipse cx="118" cy="45" rx="14" ry="18" fill="#212121"/>
+      
+      <!-- Forehead Sacred Tilak (Chandan Tripundra with Red Kumkum Dot) -->
+      <line x1="32" y1="42" x2="48" y2="42" stroke="#FFE082" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="30" y1="46" x2="50" y2="46" stroke="#FFE082" stroke-width="2.5" stroke-linecap="round"/>
+      <line x1="32" y1="50" x2="48" y2="50" stroke="#FFE082" stroke-width="2.5" stroke-linecap="round"/>
+      <circle cx="40" cy="46" r="2.5" fill="#C62828"/>
+
+      <!-- Eye (Meditative, half-closed observing the holy fire) -->
+      <path d="M32 58 Q42 54 48 58" stroke="#212121" stroke-width="2.5" fill="none"/>
+      <circle cx="40" cy="59" r="1.8" fill="#212121"/>
+
+      <!-- Nose (Sharp noble Aryan Vedic nose in profile) -->
+      <path d="M30 52 L18 72 L26 75" stroke="#8D5B4C" stroke-width="2.5" fill="none" stroke-linejoin="round"/>
+
+      <!-- Mustache & Lips (Traditional serene mustache) -->
+      <path d="M24 82 Q32 80 40 85" stroke="#212121" stroke-width="3" fill="none" stroke-linecap="round"/>
+      <path d="M26 90 Q34 90 38 88" stroke="#A15D48" stroke-width="2" fill="none"/>
+
+      <!-- Ear with Golden Kundala (Earring) -->
+      <path d="M75 65 C85 65 85 85 75 88" stroke="#8D5B4C" stroke-width="2" fill="none"/>
+      <circle cx="77" cy="88" r="3.5" fill="#FFC107" stroke="#FFA000" stroke-width="1"/>
+    </g>
+
+  </g>
+
+  <!-- 7. BOTTOM BANNER TEXT: Connecting You with Trusted Pandits -->
+  <g transform="translate(800, 780)" text-anchor="middle">
+    <!-- Line 1: Connecting You with Trusted Pandits and Delivering -->
+    <text y="0" font-family="Georgia, 'Cormorant Garamond', serif" font-size="42" font-weight="bold" fill="#7A2518" letter-spacing="0.5">
+      Connecting You with Trusted Pandits and Delivering
+    </text>
+
+    <!-- Line 2: Puja Items to Your Doorstep Across India! -->
+    <text y="52" font-family="Georgia, 'Cormorant Garamond', serif" font-size="46" font-weight="bold" fill="#D34800" letter-spacing="0.5">
+      Puja Items to Your Doorstep Across India!
+    </text>
+
+    <!-- Line 3: Website URL -->
+    <text y="88" font-family="'Plus Jakarta Sans', sans-serif" font-size="18" font-weight="600" fill="#8D5B4C" letter-spacing="1">
+      www.pujapurohit.in
+    </text>
+  </g>
+
+</svg>

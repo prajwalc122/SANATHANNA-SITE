@@ -1,0 +1,167 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600" width="100%" height="100%">
+  <defs>
+    <radialGradient id="sunAura" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFF9C4" stop-opacity="1"/>
+      <stop offset="60%" stop-color="#FFE082" stop-opacity="0.6"/>
+      <stop offset="100%" stop-color="#FFCA28" stop-opacity="0"/>
+    </radialGradient>
+  </defs>
+
+  <!-- Background Canvas -->
+  <rect width="800" height="600" fill="#FFFDF7"/>
+
+  <!-- Constellation Stars Texture in Background -->
+  <g stroke="#D7A84E" stroke-width="1" opacity="0.4" fill="none">
+    <!-- Constellation 1: Ursa Major / Saptarishi -->
+    <polyline points="80,70 130,90 170,120 190,170 240,165 260,210 210,215 190,170"/>
+    <circle cx="80" cy="70" r="3" fill="#C68B2C"/>
+    <circle cx="130" cy="90" r="3" fill="#C68B2C"/>
+    <circle cx="170" cy="120" r="3" fill="#C68B2C"/>
+    <circle cx="190" cy="170" r="3.5" fill="#C68B2C"/>
+    <circle cx="240" cy="165" r="3" fill="#C68B2C"/>
+    <circle cx="260" cy="210" r="3" fill="#C68B2C"/>
+    <circle cx="210" cy="215" r="3" fill="#C68B2C"/>
+
+    <!-- Constellation 2: Orion -->
+    <polyline points="620,80 680,100 660,150 710,180 670,220 620,200 660,150"/>
+    <line x1="645" y1="155" x2="675" y2="145" stroke-width="2"/>
+    <circle cx="620" cy="80" r="3" fill="#C68B2C"/>
+    <circle cx="680" cy="100" r="3" fill="#C68B2C"/>
+    <circle cx="710" cy="180" r="3" fill="#C68B2C"/>
+    <circle cx="670" cy="220" r="3" fill="#C68B2C"/>
+    <circle cx="620" cy="200" r="3" fill="#C68B2C"/>
+
+    <!-- Constellation 3: Cassiopeia -->
+    <polyline points="100,450 130,490 170,470 200,520 230,490"/>
+    <circle cx="100" cy="450" r="3" fill="#C68B2C"/>
+    <circle cx="130" cy="490" r="3" fill="#C68B2C"/>
+    <circle cx="170" cy="470" r="3" fill="#C68B2C"/>
+    <circle cx="200" cy="520" r="3" fill="#C68B2C"/>
+    <circle cx="230" cy="490" r="3" fill="#C68B2C"/>
+
+    <!-- Constellation 4: Taurus -->
+    <polyline points="600,450 650,470 690,440 730,480 680,510 650,470"/>
+    <circle cx="600" cy="450" r="3" fill="#C68B2C"/>
+    <circle cx="650" cy="470" r="3.5" fill="#C68B2C"/>
+    <circle cx="690" cy="440" r="3" fill="#C68B2C"/>
+    <circle cx="730" cy="480" r="3" fill="#C68B2C"/>
+    <circle cx="680" cy="510" r="3" fill="#C68B2C"/>
+  </g>
+
+  <!-- Orbital Ellipses -->
+  <g stroke="#D7A84E" stroke-width="1.5" fill="none" opacity="0.5">
+    <ellipse cx="400" cy="300" rx="340" ry="220" stroke-dasharray="4,4"/>
+    <ellipse cx="400" cy="300" rx="310" ry="250" stroke-dasharray="2,6"/>
+  </g>
+
+  <!-- MOON PHASES ARC (Left Orbital Belt) -->
+  <g transform="translate(210, 300)">
+    <!-- 8 Moon Phases -->
+    <circle cx="-80" cy="-120" r="14" fill="#F5F5F0" stroke="#8D6E63" stroke-width="1.5"/>
+    <circle cx="-100" cy="-70" r="14" fill="#E0E0E0" stroke="#8D6E63" stroke-width="1.5"/>
+    <circle cx="-110" cy="-20" r="14" fill="#BDBDBD" stroke="#8D6E63" stroke-width="1.5"/>
+    <circle cx="-110" cy="30" r="14" fill="#757575" stroke="#8D6E63" stroke-width="1.5"/>
+    <circle cx="-100" cy="80" r="14" fill="#424242" stroke="#8D6E63" stroke-width="1.5"/>
+    <circle cx="-80" cy="130" r="14" fill="#212121" stroke="#8D6E63" stroke-width="1.5"/>
+  </g>
+
+  <!-- CELESTIAL PLANETS (Right Side) -->
+  <!-- Saturn with Ring -->
+  <g transform="translate(690, 200)">
+    <ellipse cx="0" cy="0" rx="32" ry="10" fill="none" stroke="#C68B2C" stroke-width="3" transform="rotate(-25)"/>
+    <circle cx="0" cy="0" r="18" fill="#FFF8E1" stroke="#8D6E63" stroke-width="2"/>
+  </g>
+  <!-- Jupiter with Bands -->
+  <g transform="translate(700, 380)">
+    <circle cx="0" cy="0" r="22" fill="#FFE082" stroke="#8D6E63" stroke-width="2"/>
+    <line x1="-20" y1="-6" x2="20" y2="-6" stroke="#C68B2C" stroke-width="2"/>
+    <line x1="-21" y1="4" x2="21" y2="4" stroke="#C68B2C" stroke-width="2"/>
+  </g>
+
+  <!-- MAIN ASTROLOGY ZODIAC WHEEL -->
+  <g id="zodiacWheel" transform="translate(400, 300)">
+    <!-- Outer Decorative Rings -->
+    <circle cx="0" cy="0" r="185" fill="none" stroke="#8D5B4C" stroke-width="3"/>
+    <circle cx="0" cy="0" r="178" fill="none" stroke="#C68B2C" stroke-width="1.5" stroke-dasharray="3,3"/>
+    <circle cx="0" cy="0" r="145" fill="#FFFDF9" stroke="#8D5B4C" stroke-width="2"/>
+    <circle cx="0" cy="0" r="90" fill="none" stroke="#C68B2C" stroke-width="2"/>
+    <circle cx="0" cy="0" r="60" fill="url(#sunAura)" stroke="#8D5B4C" stroke-width="2"/>
+
+    <!-- 12 Radiating Sector Lines -->
+    <g stroke="#C68B2C" stroke-width="1.5" opacity="0.7">
+      <line x1="0" y1="-145" x2="0" y2="-90"/>
+      <line x1="72.5" y1="-125.6" x2="45" y2="-77.9"/>
+      <line x1="125.6" y1="-72.5" x2="77.9" y2="-45"/>
+      <line x1="145" y1="0" x2="90" y2="0"/>
+      <line x1="125.6" y1="72.5" x2="77.9" y2="45"/>
+      <line x1="72.5" y1="125.6" x2="45" y2="77.9"/>
+      <line x1="0" y1="145" x2="0" y2="90"/>
+      <line x1="-72.5" y1="125.6" x2="-45" y2="77.9"/>
+      <line x1="-125.6" y1="72.5" x2="-77.9" y2="45"/>
+      <line x1="-145" y1="0" x2="-90" y2="0"/>
+      <line x1="-125.6" y1="-72.5" x2="-77.9" y2="-45"/>
+      <line x1="-72.5" y1="-125.6" x2="-45" y2="-77.9"/>
+    </g>
+
+    <!-- 12 Zodiac Symbols / Glyphs -->
+    <g font-family="'Noto Sans Kannada', serif" font-size="20" font-weight="bold" fill="#8B3A14" text-anchor="middle" dominant-baseline="central">
+      <text x="30" y="-115">♈</text>  <!-- Mesha / Aries -->
+      <text x="80" y="-85">♉</text>   <!-- Vrishabha / Taurus -->
+      <text x="115" y="-30">♊</text>  <!-- Mithuna / Gemini -->
+      <text x="115" y="30">♋</text>   <!-- Karkataka / Cancer -->
+      <text x="80" y="85">♌</text>    <!-- Simha / Leo -->
+      <text x="30" y="115">♍</text>   <!-- Kanya / Virgo -->
+      <text x="-30" y="115">♎</text>  <!-- Tula / Libra -->
+      <text x="-80" y="85">♏</text>   <!-- Vrischika / Scorpio -->
+      <text x="-115" y="30">♐</text>  <!-- Dhanu / Sagittarius -->
+      <text x="-115" y="-30">♑</text> <!-- Makara / Capricorn -->
+      <text x="-80" y="-85">♒</text>  <!-- Kumbha / Aquarius -->
+      <text x="-30" y="-115">♓</text> <!-- Meena / Pisces -->
+    </g>
+
+    <!-- Outer Names (Aries, Taurus, etc.) in English & Kannada -->
+    <g font-family="'Plus Jakarta Sans', sans-serif" font-size="10" font-weight="bold" fill="#5A3215" text-anchor="middle" dominant-baseline="central">
+      <text x="42" y="-160">Aries</text>
+      <text x="115" y="-120">Taurus</text>
+      <text x="160" y="-42">Gemini</text>
+      <text x="160" y="42">Cancer</text>
+      <text x="115" y="120">Leo</text>
+      <text x="42" y="160">Virgo</text>
+      <text x="-42" y="160">Libra</text>
+      <text x="-115" y="120">Scorpio</text>
+      <text x="-160" y="42">Sagittarius</text>
+      <text x="-160" y="-42">Capricorn</text>
+      <text x="-115" y="-120">Aquarius</text>
+      <text x="-42" y="-160">Pisces</text>
+    </g>
+
+    <!-- CENTRAL RADIANT SURYA (Sun) -->
+    <!-- Sun Rays -->
+    <g fill="none" stroke="#C68B2C" stroke-width="2">
+      <path d="M0 -35 Q5 -48 0 -58 Q-5 -48 0 -35 Z" fill="#FFB300"/>
+      <path d="M25 -25 Q38 -35 42 -42 Q30 -38 25 -25 Z" fill="#FFB300"/>
+      <path d="M35 0 Q48 5 58 0 Q48 -5 35 0 Z" fill="#FFB300"/>
+      <path d="M25 25 Q38 30 42 42 Q30 38 25 25 Z" fill="#FFB300"/>
+      <path d="M0 35 Q5 48 0 58 Q-5 48 0 35 Z" fill="#FFB300"/>
+      <path d="M-25 25 Q-38 30 -42 42 Q-30 38 -25 25 Z" fill="#FFB300"/>
+      <path d="M-35 0 Q-48 5 -58 0 Q-48 -5 -35 0 Z" fill="#FFB300"/>
+      <path d="M-25 -25 Q-38 -35 -42 -42 Q-30 -38 -25 -25 Z" fill="#FFB300"/>
+    </g>
+    <!-- Sun Core Face -->
+    <circle cx="0" cy="0" r="26" fill="#FFE082" stroke="#8D5B4C" stroke-width="2"/>
+    <!-- Sun Eyes & Smile -->
+    <path d="M-10 -4 Q-6 -8 -2 -4" stroke="#8D5B4C" stroke-width="2" fill="none"/>
+    <path d="M2 -4 Q6 -8 10 -4" stroke="#8D5B4C" stroke-width="2" fill="none"/>
+    <path d="M-6 8 Q0 14 6 8" stroke="#8D5B4C" stroke-width="2" fill="none"/>
+    <!-- Tilak on Sun -->
+    <circle cx="0" cy="-12" r="2" fill="#C62828"/>
+  </g>
+
+  <!-- Golden Title Header -->
+  <text x="400" y="45" font-family="Georgia, serif" font-size="24" font-weight="bold" fill="#7A2518" text-anchor="middle">
+    ಜ್ಯೋತಿಷ್ಯ • Vedic Astrology &amp; Horoscopes
+  </text>
+  <text x="400" y="70" font-family="'Plus Jakarta Sans', sans-serif" font-size="12" font-weight="600" fill="#8D5B4C" text-anchor="middle">
+    Navagraha Shanti • Kundali &amp; Muhurat • Rashi Chakra
+  </text>
+</svg>
